@@ -13,6 +13,8 @@
 .container{
     width: 100%;
 }
+
+/* nav */
 .navigation{
     position: fixed;
     display: inline-block;
@@ -25,19 +27,24 @@
     list-style: none;
 }
 
+.navigation ul li{
+    display: inline-block;
+}
+
 
 .navigation ul li a{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     font-size: 10px;
+    margin-left: 15px;
     text-decoration: none;
     text-transform: uppercase;
     background: white;
     color: black;
     border-radius: 50%;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 
